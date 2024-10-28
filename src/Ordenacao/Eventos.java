@@ -1,0 +1,32 @@
+package Ordenacao;
+
+public class Eventos {
+    // atributos
+    private String nome;
+    private String atracao;
+
+    // metodos construtor
+    public Eventos(String nome, String atracao) {
+        this.nome = nome;
+        this.atracao = atracao;
+    }
+
+    // metodo get
+    public String getNome() {
+        return nome;
+    }
+
+    // metodo get
+    public String getAtracao() {
+        return atracao;
+    }
+
+    // to String
+    @Override
+    public String toString() {
+        return "Eventos{" +
+                "nome='" + nome + '\'' +
+                ", atracao='" + atracao + '\'' +
+                '}';
+    }
+}

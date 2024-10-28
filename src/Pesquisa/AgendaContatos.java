@@ -58,4 +58,6 @@ public class AgendaContatos {
         //System.out.println("Contato atualizado: " + agendaContatos.atualizarNumeroContato("Eduardo", 845795215));
     }
 
+    public void removerContato(String duduzinho) {
+    }
 }
